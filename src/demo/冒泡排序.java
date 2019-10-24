@@ -15,7 +15,7 @@ public class ц╟ещеепР {
 				{
 					int c=a[i];
 					a[i]=a[j];
-					a[j]=c;
+					a[j]=c; 
 				}
 			}
 		}
