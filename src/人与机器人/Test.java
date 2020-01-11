@@ -7,8 +7,17 @@ public class Test {
 		ren.age=18;
 		ren.name="pxj";
 		ren.sex="boy";
-		robort a=ren.make();
-		a.name="ÇæÌìÖù";
-		a.say();
+		robort a=ren.make("ÇæÌìÖù");	
+		
+		Person ren2=new Person();
+		ren2.age=18;
+		ren2.name="kjy";
+		ren2.sex="girl";
+		
+		robort nr=ren.makeFor(ren2);
+	    
+		//a.say();
+		//b.say();
+		nr.say();
 	}
 }
