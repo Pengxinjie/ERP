@@ -36,6 +36,7 @@ public class LotteryArray {
 				arr1[n][k]=temp;
 			}
 		}
+		
 		for (int[] row : arr1) {
 			for (int odd : row) {
 				System.out.printf("%4d",odd);
