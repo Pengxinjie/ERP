@@ -1,4 +1,4 @@
-package 人与机器人;
+package 面向对象4;
 
 public class Test {
 
