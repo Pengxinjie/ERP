@@ -17,5 +17,8 @@ public class Test {
 		
 		dog d=(dog)an;//强制类型转换   向下转型
 		d.eatt();
+		
+		//Cat b=(Cat)d;  不能这样转型，狗不能转型成猫。要求类型匹配。
+		
 	}
 }
