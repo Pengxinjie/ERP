@@ -15,5 +15,15 @@ public class IntTest {
 		String s=new String(n.toString());
 		System.out.print(s);
 		
+		//注意类型转换   int 可以转换成  long  ，但long不能转换成       int 
+		//大不能转小
+		
+		//基本数据类型转字符串
+		double pi=3.14;
+		String x1=Double.toString(pi);
+		String x2=new Double(pi).toString();
+		String x3=Double.valueOf(pi).toString();
+		String x4=""+pi;//想不到吧
+		
 	}
 }
